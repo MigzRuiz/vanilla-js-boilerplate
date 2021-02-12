@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  color: $color-white;
+  background-color: $color-white;
+  //   background-image: linear-gradient(
+  //     to left bottom,
+  //     var(--color-background-light),
+  //     var(--color-background-dark)
+  //   );
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
